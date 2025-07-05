@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["mesa", "glib"]
+
+[start]
+cmd = "streamlit run main.py --server.port=$PORT --server.enableCORS=false"
